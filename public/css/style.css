@@ -3,17 +3,21 @@ body {
   margin: auto;
   padding: 1em;
   line-height: 1.5em;
+  font-size: 1.05rem;
 }
 
 /* header and footer areas */
 .menu { padding: 0; }
-.menu li { display: inline-block; }
+.menu li { 
+  display: inline-block;
+  margin: 0 .5rem;
+}
 .article-meta, .menu a {
   text-decoration: none;
-  background: #eee;
-  padding: 5px;
+  padding: .5rem;
   border-radius: 5px;
 }
+
 .menu, .article-meta, footer { text-align: center; }
 .title { font-size: 1.1em; }
 footer a { text-decoration: none; }
@@ -49,3 +53,21 @@ table {
 table thead th { border-bottom: 1px solid #ddd; }
 th, td { padding: 5px; }
 thead, tfoot, tr:nth-child(even) { background: #eee; }
+
+/* about */
+img[src*="#me"] {
+    max-width: 200px;
+    float: right;
+}
+
+/* home projects & posts list */
+
+ul {
+  padding: 0; 
+  list-style-type: none;
+}
+
+.project, .page-listitem {
+  margin: .5rem; 
+  margin-bottom: 1rem;
+}
