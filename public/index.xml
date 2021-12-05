@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on René Piik</title>
+    <link>/</link>
+    <description>Recent content in Home on René Piik</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 17 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>T2na</title>
+      <link>/post/2021/07/17/t2na/</link>
+      <pubDate>Sat, 17 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2021/07/17/t2na/</guid>
+      <description>Preppan jälle. Kell on veidi pärast keskööd. Istun seltsi terrassil ja kuulan, kuidas ksv!ksv! ja üks külaline vaidlevad / arutavad küberturva teemal. Preppan 24h, lõpetan alles täna õhtul kell 22.
+Ei oska midagi tarka kirjutada, aga mõtlesin, et tasuks. Sain just selle veebi poole vist valmis ning tahtsin testida.</description>
+    </item>
+    
+    <item>
+      <title>About Me</title>
+      <link>/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>img[src*=&#34;#me&#34;] {max-width: 200px;float: right;}I am a full-time student of mathematics at the University of Tartu (graduating in 2022). I have worked as a news reporter (2016 - 2018), a frontend web developer (2019 - 2020), a teacher&amp;rsquo;s assistant at the university (2020 - 2021) and a data analyst (2021).
+I largely spend my time studying, reading and procrastinating on r/math. I represented Estonia at the international Toledo/Madrid MEP in 2018 and led my high school&amp;rsquo;s student council for a year.</description>
+    </item>
+    
+  </channel>
+</rss>
