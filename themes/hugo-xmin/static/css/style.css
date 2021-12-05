@@ -14,10 +14,10 @@ body {
 }
 .article-meta, .menu a {
   text-decoration: none;
-  background: #eee;
   padding: .5rem;
   border-radius: 5px;
 }
+
 .menu, .article-meta, footer { text-align: center; }
 .title { font-size: 1.1em; }
 footer a { text-decoration: none; }
