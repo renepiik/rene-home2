@@ -32,10 +32,49 @@
 404 NOT FOUND
 
   <footer>
-  <script defer src="//yihui.org/js/math-code.js"></script>
-<script defer src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+  
 
-<script defer src="//yihui.org/js/center-img.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+<script>
+    MathJax = {
+      tex: {
+        packages: ['base', 'ams'],        
+        inlineMath: [              
+          ['$', '$'],
+          ['\\(', '\\)']
+        ],
+        displayMath: [             
+          ['$$', '$$'],
+          ['\\[', '\\]']
+        ],
+        processEscapes: true,      
+        processEnvironments: true, 
+        processRefs: true,         
+        digits: /^(?:[0-9]+(?:\{,\}[0-9]{3})*(?:\.[0-9]*)?|\.[0-9]+)/,
+                                   
+        tags: 'none',              
+        tagSide: 'right',          
+        tagIndent: '0.8em',        
+        useLabelIds: true,         
+        maxMacros: 1000,           
+        maxBuffer: 5 * 1024,       
+        baseURL:                   
+           (document.getElementsByTagName('base').length === 0) ? '' : String(document.location).replace(/#.*$/, ''),
+        formatError:               
+            (jax, err) => jax.formatError(err)
+      },
+      startup: {
+        ready: () => {
+            console.log('MathJax is loaded, but not yet initialized');
+            MathJax.startup.defaultReady();
+            console.log('MathJax is initialized, and the initial typeset is queued');
+        }
+      }       
+    };
+</script>
+
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
   
   © René Piik 2021 | <a href="https://twitter.com/renepiik">Twitter</a> <br> Theme by <a href="https://yihui.org">Yihui Xie</a>
