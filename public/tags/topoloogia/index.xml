@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on René Piik</title>
-    <link>/post/</link>
-    <description>Recent content in Posts on René Piik</description>
+    <title>Topoloogia on René Piik</title>
+    <link>/tags/topoloogia/</link>
+    <description>Recent content in Topoloogia on René Piik</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 14 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 14 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/topoloogia/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ülesanne loenduvuse aksioomidest</title>
       <link>/post/2021/12/14/ylesanne-loenduvuse-aksioomidest/</link>
@@ -15,16 +15,6 @@
       <guid>/post/2021/12/14/ylesanne-loenduvuse-aksioomidest/</guid>
       <description>Hakkasin kordamise mõttes topoloogiliste omaduste konspekti ülesandeid otsast lahendama. Esimese peatüki esimene ülesanne kõlab seal järgmiselt: &amp;ldquo;Tõestada, et kui topoloogia mingi baas on loenduv, siis selle topoloogia iga baas sisaldab loenduva baasi.&amp;rdquo;
 Esialgu tundus mulle, et selle lause tõestus peaks olema küllaltki lihtne. Tuleks definitsioonidele vaid otsa vaadata, neid natuke kohendada ja lahenduskäik võiks end juba ilmutada. Paraku nii ei juhtunud. Üritasin kaks-kolm päeva seda ülesannet ilma välise abita lahendada ega jõudnud kuhugi.</description>
-    </item>
-    
-    <item>
-      <title>T2na</title>
-      <link>/post/2021/07/17/t2na/</link>
-      <pubDate>Sat, 17 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/post/2021/07/17/t2na/</guid>
-      <description>Preppan jälle. Kell on veidi pärast keskööd. Istun seltsi terrassil ja kuulan, kuidas ksv!ksv! ja üks külaline vaidlevad / arutavad küberturva teemal. Preppan 24h, lõpetan alles täna õhtul kell 22.
-Ei oska midagi tarka kirjutada, aga mõtlesin, et tasuks. Sain just selle veebi poole vist valmis ning tahtsin testida.</description>
     </item>
     
   </channel>

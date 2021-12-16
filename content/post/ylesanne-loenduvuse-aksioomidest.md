@@ -1,5 +1,6 @@
 ---
 title: Ülesanne loenduvuse aksioomidest
+slug: ylesanne-loenduvuse-aksioomidest
 author:
 date: '2021-12-14'
 categories:
