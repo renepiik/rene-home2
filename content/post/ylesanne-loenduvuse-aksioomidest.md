@@ -5,8 +5,7 @@ author:
 date: '2021-12-14'
 categories:
   - Topoloogia
-tags:
-  - Topoloogia
+  - Matemaatika
 ---
 
 Hakkasin kordamise mõttes topoloogiliste omaduste konspekti ülesandeid otsast lahendama. Esimese peatüki esimene ülesanne kõlab seal järgmiselt: "Tõestada, et kui topoloogia mingi baas on loenduv, siis selle topoloogia iga baas sisaldab loenduva baasi."

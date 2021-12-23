@@ -6,6 +6,11 @@ body {
   font-size: 1.05rem;
 }
 
+main {
+  max-width: 40rem;
+  margin: auto;
+}
+
 /* header and footer areas */
 .menu { padding: 0; }
 .menu li { 
@@ -19,7 +24,10 @@ body {
 }
 
 .menu, .article-meta, footer { text-align: center; }
-.title { font-size: 1.1em; }
+.title { 
+  font-size: 1.1em; 
+  line-height: 0.9;
+}
 footer a { text-decoration: none; }
 hr {
   border-style: dashed;
@@ -71,4 +79,14 @@ ul {
 .project, .page-listitem {
   margin: .5rem; 
   margin-bottom: 1rem;
+}
+
+figure {
+  float: left;
+  margin: 1.5rem;
+  margin-left: 0;
+}
+
+p {
+  text-align: justify;
 }

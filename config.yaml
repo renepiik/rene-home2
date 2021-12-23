@@ -1,5 +1,5 @@
 baseurl: "/"
-languageCode: "en-us"
+languageCode: "et-ee"
 title: "René Piik"
 theme: "hugo-xmin"
 googleAnalytics: ""
@@ -13,24 +13,21 @@ permalinks:
 
 menu:
   main:
-    - name: Home
+    - name: Sisu
       url: ""
       weight: 1
-    - name: About
-      url: "about/"
+    - name: Minust
+      url: "minust/"
       weight: 2
-    - name: Categories
+    - name: Kategooriad
       url: "categories/"
       weight: 3
-    - name: Tags
-      url: "tags/"
-      weight: 4
     - name: RSS
       url: "index.xml"
 
 params:
-  description: "A website built through Hugo and blogdown."
-  footer: "&copy; René Piik 2021 | [Twitter](https://twitter.com/renepiik) <br> Theme by [Yihui Xie](https://yihui.org)"
+  description: "René koduleht."
+  footer: "&copy; René Piik 2021 | [Twitter](https://twitter.com/renepiik) <br> Hugo teema autor on [Yihui Xie](https://yihui.org)"
 
 markup:
   goldmark:

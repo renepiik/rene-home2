@@ -5,8 +5,18 @@
     <link>/</link>
     <description>Recent content in Home on René Piik</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 14 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <language>et-ee</language>
+    <lastBuildDate>Thu, 23 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Eesti keel matemaatikakirjanduses (1/2)</title>
+      <link>/post/2021/12/23/eesti-keel-matemaatikakirjanduses-1/</link>
+      <pubDate>Thu, 23 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2021/12/23/eesti-keel-matemaatikakirjanduses-1/</guid>
+      <description>Erialase keele areng on pikalt olnud aktuaalne teema, mis käib käsikäes eestikeelse ülikooli küsimustega. Kui valdav osa doktoriõppest on ingliskeelne, eriti loodus- ja täppisteaduste valdkonnas, siis kuidas peaks arenema emakeelne teadus? Miks peaks noortel tudengitel olema motivatsiooni õppida bakalaureuse- ja magistriastmes eesti keeles, kui tulevastel töökohtadel või doktoriõppes tuleb niikuinii tunda kogu materjali inglise keeles?
+Valdav osa matemaatikast, mida bakalaureuse astmes Tartu Ülikoolis õpetatakse, on üle 100 aasta vana. Claude Shannoni eestvedamisel 1950ndatel formaliseerunud informatsiooniteooria on üks tänapäevasemaid matemaatika harusid, millega värske tudeng kohustuslikus korras kokku puutub, ning sedagi läbi arvutiteaduse õppetooli halduses olevate ainete.</description>
+    </item>
+    
     <item>
       <title>Ülesanne loenduvuse aksioomidest</title>
       <link>/post/2021/12/14/ylesanne-loenduvuse-aksioomidest/</link>
@@ -28,13 +38,13 @@ Ei oska midagi tarka kirjutada, aga mõtlesin, et tasuks. Sain just selle veebi 
     </item>
     
     <item>
-      <title>About Me</title>
-      <link>/about/</link>
+      <title>Minust</title>
+      <link>/minust/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/about/</guid>
-      <description>I am a full-time student of mathematics at the University of Tartu (graduating in 2023). I have worked as a news reporter (2016 - 2018), a frontend developer (2019 - 2020), a TA at the university (2020 - 2021) and a data analyst (2021).
-I spend my time studying, reading and procrastinating on r/math. I represented Estonia at the international Toledo/Madrid MEP in 2018 and led my high school&amp;rsquo;s student council for a year.</description>
+      <guid>/minust/</guid>
+      <description>Olen täiskohaga matemaatikatudeng Tartu Ülikoolis. Kui kõik hästi läheb, lõpetan bakalaureuse 2023. aasta kevadel. Olen töötanud reporterina (2016 - 2018), veebiarendajana (2019 - 2020), õppeassistendina ülikoolis (2020 - 2021) ja andmeanalüütikuna (2021).
+Vabal ajal üritan matemaatikat õppida, loen raamatuid ning löön r/math-is aega parajaks. 2018. aastal esindasin Eestit rahvusvahelisel MEPil Madridis ja juhtisin Reaalkooli õpilasomavalitsuse tööd. Hiljuti kirjutasin lühikese referaadi eesti matemaatilise keele ajaloost, mida saate siinsamal lehel ka lugeda.</description>
     </item>
     
   </channel>

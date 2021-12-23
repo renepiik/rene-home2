@@ -5,8 +5,17 @@
     <link>/categories/</link>
     <description>Recent content in Categories on René Piik</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 14 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>et-ee</language>
+    <lastBuildDate>Thu, 23 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Matemaatika</title>
+      <link>/categories/matemaatika/</link>
+      <pubDate>Thu, 23 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/matemaatika/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Topoloogia</title>
       <link>/categories/topoloogia/</link>
