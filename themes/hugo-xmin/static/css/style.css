@@ -1,9 +1,9 @@
 body {
-  max-width: 800px;
   margin: auto;
   padding: 1em;
   line-height: 1.5em;
   font-size: 1.05rem;
+  max-width: none !important; 
 }
 
 main {
@@ -94,4 +94,14 @@ p {
 .subtitle {
   color: var(--text-muted);
   font-size: 1.2rem;
+}
+
+.cover-image {
+  border-radius: 5px;
+}
+
+.cover-parent {
+  max-width: 60rem;
+  padding: 1rem;
+  margin: auto;
 }

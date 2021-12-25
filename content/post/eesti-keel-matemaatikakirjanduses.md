@@ -1,10 +1,12 @@
 ---
-title: Emakeelse matemaatikakirjanduse ajalugu
-slug: eesti-keel-matemaatikakirjanduses
+title: Eestikeelse matemaatikakirjanduse ajalugu
+slug: eestikeelse-matemaatikakirjanduse-ajalugu
 author:
 date: '2021-12-25'
 categories:
   - Matemaatika
+cover: '/images/eestikeel_cover_2.png'
+time_to_read: '15'
 ---
 
 Erialase keele areng on pikalt olnud aktuaalne teema, mis käib käsikäes eestikeelse ülikooli küsimustega. Kui valdav osa doktoriõppest on ingliskeelne, eriti loodus- ja täppisteaduste valdkonnas, siis kuidas peaks arenema emakeelne teadus? Miks peaks noortel tudengitel olema motivatsiooni õppida bakalaureuse- ja magistriastmes eesti keeles, kui tulevastel töökohtadel või doktoriõppes tuleb niikuinii tunda kogu materjali inglise keeles?
@@ -150,7 +152,7 @@ Rägo, G., & Eesti Matemaatika Õpetamise Komisjon (Toim). (1925). *Matemaatika 
 
 ## Lisa
 
-Siia lisasse koondasin kõik minule huvipakkunud kirjaviiside paarid uuritud matemaatilistest tekstidest. Osadele iganenud mõistetele ei suutnud ma leida tänapäevast vastet, neile jätsin tulbas „Mõiste / kirjapilt praegu“ tühja koha.
+Siia lisasse koondasin kõik mulle huvipakkunud kirjaviiside paarid uuritud matemaatilistest tekstidest. Osadele iganenud mõistetele ei osanud ma leida tänapäevast vastet, neile jätsin tulbas „Mõiste / kirjapilt praegu“ tühja koha.
 
 **Kirjapilt praegu** | **Kirjapilt "Mõistlikus rehkendajas" (1874)**
 -- | --
@@ -251,7 +253,6 @@ korrutama | kasvatama
 tegur | kasvatatav
 korrutamine | kasvatamine
 kordarv | kordarv
-
 
 <br>
 
