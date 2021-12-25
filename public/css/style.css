@@ -90,3 +90,8 @@ figure {
 p {
   text-align: justify;
 }
+
+.subtitle {
+  color: var(--text-muted);
+  font-size: 1.2rem;
+}
