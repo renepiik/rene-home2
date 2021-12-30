@@ -105,3 +105,17 @@ p {
   padding: 1rem;
   margin: auto;
 }
+
+.link-type {
+  padding: .2rem .5rem;
+  border-radius: 5px;
+}
+
+.link-type-v {
+  background-color: #ff6c74;
+}
+
+.link-type-a {
+  background-color: #ffb86c;
+}
+
