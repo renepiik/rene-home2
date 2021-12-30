@@ -19,11 +19,11 @@ menu:
     - name: Minust
       url: "minust/"
       weight: 2
-    - name: Kategooriad
-      url: "categories/"
-      weight: 3
-    - name: RSS
-      url: "index.xml"
+      # - name: Kategooriad
+      #   url: "categories/"
+      #   weight: 3
+      # - name: RSS
+      #   url: "index.xml"
 
 params:
   description: "René koduleht."
