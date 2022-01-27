@@ -23,7 +23,7 @@ Esimene eestikeelne trükis, mis koostati matemaatikahariduse edendamise eesmär
 
 Vanimad Tartu Ülikoolis kasutusel olnud ning siiani säilinud matemaatika õppematerjalid pärinevad 19. sajandi keskpaigast. Tegu on stereopiltidega geomeetrilistest kujunditest: üks kerast ja teine teatud kristalse struktuuriga kehast. Paraku pole säilinud ühtegi tunnistust sellest, et kummagi joonise autor oleks õppinud, töötanud ega akadeemilises ulatuses Eestit külastanud. (Nell & Hessemer, 19. saj keskpaik) (<i>Nell, Adam Maximilian</i>, s.a.) (<i>Hessemer, Friedrich August Wilhelm Maximilian</i>, s.a.)
 
-<figure>
+<figure class="block">
   <img src="/images/uamf5_87.jpg">
   <img src="/images/uamf5_89.jpg">
   <figcaption>Stereopildid geomeetrilistest kujunditest</figcaption>
@@ -31,7 +31,7 @@ Vanimad Tartu Ülikoolis kasutusel olnud ning siiani säilinud matemaatika õppe
 
 Varaseim eestikeelne matemaatikatrükis on "Mõistlik rehkendaja", välja antud Tartus aastal 1874 ja koostatud Eesti Üliõpilaste Seltsi vilistlase Rudolf Gottfried Kallase poolt. Selles materjalis tutvustatud matemaatika on algeline, alustades liitmise, lahutamise, korrutamise ja jagamisega, rakendades saadud oskusi esmalt naturaalarvude, seejärel murdude peal. Tutvustatakse ka muutuja mõistet ning rakendatakse õpitud matemaatilisi meetodeid päriselulistel seikadel. Tasub märkida, et Kallas töötas raamatu ilmumise ajal algkoolis õpetajana, mistõttu olid ka õpiku ülesanded suunatud eelkõige noorematele klassidele. Näiteks kõlab üks raamatu ülesannetest järgmiselt: "800le toobile 70-kraadisele piiritusele kallati nii palju 54-kraadist piiritust juurde, et segatus 60ne kraadiliseks läks; mitu toopi saadi segatud?" (Kallas, 1874, lk 317)
 
-<figure>
+<figure class="inline-left">
   <img alt="Rudolf Gottfried Kallas" src="/images/Rudolf-Kallas.jpg#rudolf-kallas">
   <figcaption>Rudolf Gottfried Kallas</figcaption>
 </figure>
@@ -77,7 +77,7 @@ Aastal 1909 ilmus Eesti Kirjandusseltsi liikmete sulest "Matemaatika sõnastik".
 
 Peamiselt sisaldas "Matemaatika sõnastik" mõisteid geomeetriast (näiteks sõõris, längruut või pügal) ja üldist sõnavara (näiteks väidend, harutus või ühtlus). Ülikooli matemaatikas kasutatavaid mõisteid seal ei fikseeritud, ilmselt sellepärast, et eestikeelset kõrgharidust polnud veel võimalik omandada. (Lisa 1) (<i>Matemaatika sõnastik</i>, 1909)
 
-<figure>
+<figure class="block">
   <img src="/images/s66ris.png">
   <img src="/images/klambrid.png">
   <figcaption>Väljavõtted "Matemaatika sõnastikust"</figcaption>
@@ -152,7 +152,7 @@ Rägo, G., & Eesti Matemaatika Õpetamise Komisjon (Toim). (1925). *Matemaatika 
 
 ## Lisa
 
-Siia lisasse koondasin kõik mulle huvipakkunud kirjaviiside paarid uuritud matemaatilistest tekstidest. Osadele iganenud mõistetele ei osanud ma leida tänapäevast vastet, neile jätsin tulbas „Mõiste / kirjapilt praegu“ tühja koha.
+Siia lisasse koondasin kõik mulle huvipakkunud kirjaviiside paarid uuritud matemaatilistest tekstidest. Osadele iganenud mõistetele ei osanud ma leida tänapäevast vastet, neile jätsin tulbas „Kirjapilt praegu“ tühja koha.
 
 **Kirjapilt praegu** | **Kirjapilt "Mõistlikus rehkendajas" (1874)**
 -- | --
@@ -212,8 +212,8 @@ asukoht | seis
 lemma | abiväidend
 teoreem | väidend
 lineaarne | joon-
- | veernurk
- | längnurk
+~ | veernurk
+~ | längnurk
 tarvilik | ainulik
 järjestus | kord
 asukoht | ase
@@ -247,8 +247,8 @@ number | nummer
 lahenduv | harguv
 lahendama | arvama, harutama
 lahendus | harutus, harutamine
- | küljepind
- | emajoon
+~ | küljepind
+~ | emajoon
 korrutama | kasvatama
 tegur | kasvatatav
 korrutamine | kasvatamine
@@ -264,7 +264,7 @@ võrdelisus | proportsionaalsus
 näide | näitus
 kommutatiivsus | vahetatavus
 avaldis | avaldus
- | ruumkuju
+~ | ruumkuju
 muutujast sõltuv funktsioon | muutujast ärarippuv funktsioon
 tõestus | tõendus
 kehtib | maksab

@@ -7,7 +7,7 @@ body {
 }
 
 main {
-  max-width: 40rem;
+  max-width: 45rem;
   margin: auto;
 }
 
@@ -69,9 +69,36 @@ img[src*="#me"] {
     margin: 1rem;
 }
 
+/* article view */
+
+figure {
+  margin: 2rem;
+}
+
+figure.inline-left {
+  float: left;
+  margin-left: 0;
+}
+
+figure.inline-left > img {
+  margin-right: 2rem;
+}
+
+figure.block {
+  margin: 2rem auto;
+}
+
+figure.block > img {
+  margin: 2rem 0;
+}
+
+table {
+  margin: 2rem 0;
+}
+
 /* home projects & posts list */
 
-ul {
+#pages, #projects, #links {
   padding: 0; 
   list-style-type: none;
 }
@@ -79,12 +106,6 @@ ul {
 .project, .page-listitem {
   margin: .5rem; 
   margin-bottom: 1rem;
-}
-
-figure {
-  float: left;
-  margin: 1.5rem;
-  margin-left: 0;
 }
 
 p {
@@ -108,7 +129,9 @@ p {
 
 .link-type {
   padding: .2rem .5rem;
+  margin: .5rem;
   border-radius: 5px;
+  hyphens: manual;
 }
 
 .link-type-v {

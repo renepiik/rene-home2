@@ -27,7 +27,7 @@ menu:
 
 params:
   description: "René koduleht."
-  footer: "&copy; René Piik 2021 | [Twitter](https://twitter.com/renepiik) <br> Hugo teema autor on [Yihui Xie](https://yihui.org)"
+  footer: "&copy; René Piik 2021-2022 | [Twitter](https://twitter.com/renepiik) <br> Hugo teema autor on [Yihui Xie](https://yihui.org)"
 
 markup:
   goldmark:
