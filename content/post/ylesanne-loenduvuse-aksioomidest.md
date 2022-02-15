@@ -22,17 +22,17 @@ Segadust tekitas minu jaoks ka see, et üldise topoloogia raames kutsutakse üli
 
 **Lahendus**
 
-Vaatleme topoloogilist ruumi $(X, \tau)$, millel leidub loenduv baas $\mathfrak{B} = \{ B_{n}:n\in \mathbb{N} \}$. Fikseerime suvalise topoloogilise baasi $\mathfrak{C}$ ja näitame, et selles sisaldub loenduv baas.
+Vaatleme topoloogilist ruumi $(X, \tau)$, millel leidub loenduv baas $\mathfrak{B} = \\{ B_{n}:n\in \mathbb{N} \\}$. Fikseerime suvalise topoloogilise baasi $\mathfrak{C}$ ja näitame, et selles sisaldub loenduv baas.
 
 Me näitame seda nii, et eraldame baasist $\mathfrak{C}$ mingi alamkogumi, mille elemendid sobituvad seose $\subset$ järgi baasi $\mathfrak{B}$ elementide vahele. Kuna baasil $\mathfrak{B}$ on vaid loenduv arv liikmeid, siis peab ka selles $\mathfrak{C}$ alamkogumis nii olema.
 
 Selleks defineerime esialgu indeksite hulga
 $$
-I=\{ (m,n)\in\mathbb{N}^{2}:\exists C\in\mathfrak{C},\hspace{0.2cm} B_{m}\subset C\subset B_{n} \}.
+I=\\{ (m,n)\in\mathbb{N}^{2}:\exists C\in\mathfrak{C},\hspace{0.2cm} B_{m}\subset C\subset B_{n} \\}.
 $$ 
 Kuna $\mathbb{N}^{2}$ on loenduv, siis ka selle alamhulk $I$ on loenduv. (Räägime siin taas ülimalt loenduvusest.) Moodustame selle järgi loenduva hulga 
 $$
-\mathfrak{C}^* = \{ C_{mn}:(m,n)\in I \}\subset\mathfrak{C}
+\mathfrak{C}^* = \\{ C_{mn}:(m,n)\in I \\}\subset\mathfrak{C}
 $$ 
 ja näitame, et $\mathfrak{C}^*$ on ruumi $X$ baas.
 

@@ -43,15 +43,15 @@
 <p>Ülesande tekstis pole eriti paljust kinni haarata. Meile öeldakse vaid, et antud topoloogiline ruum rahuldab teist loenduvuse aksioomi. Seega oli minu esimene mõte, et ehk võiks tekitada vastuolu esimese loenduvuse aksioomiga, mis väidab, et igal ruumi punktil leidub loenduv baas. Teatavasti järeldub esimene aksioom teisest. Paraku ei kandnud see mõttekäik vilja.</p>
 <p>Segadust tekitas minu jaoks ka see, et üldise topoloogia raames kutsutakse ülimalt loenduvaid hulki lihtsalt loenduvateks. Kui ma üritasin hakata tõestama, et mingil punktil ei leidu loenduvat baasi, arvasin pikalt, et loenduvuse asemel peab leiduma ülimalt lõplik baas. Tegelikult tähendaks see hoopis, et vähim baas mis mingil punktil leidub on suurem kui loenduv (näiteks kontiinumi võimsusega).</p>
 <p><strong>Lahendus</strong></p>
-<p>Vaatleme topoloogilist ruumi $(X, \tau)$, millel leidub loenduv baas $\mathfrak{B} = { B_{n}:n\in \mathbb{N} }$. Fikseerime suvalise topoloogilise baasi $\mathfrak{C}$ ja näitame, et selles sisaldub loenduv baas.</p>
+<p>Vaatleme topoloogilist ruumi $(X, \tau)$, millel leidub loenduv baas $\mathfrak{B} = \{ B_{n}:n\in \mathbb{N} \}$. Fikseerime suvalise topoloogilise baasi $\mathfrak{C}$ ja näitame, et selles sisaldub loenduv baas.</p>
 <p>Me näitame seda nii, et eraldame baasist $\mathfrak{C}$ mingi alamkogumi, mille elemendid sobituvad seose $\subset$ järgi baasi $\mathfrak{B}$ elementide vahele. Kuna baasil $\mathfrak{B}$ on vaid loenduv arv liikmeid, siis peab ka selles $\mathfrak{C}$ alamkogumis nii olema.</p>
 <p>Selleks defineerime esialgu indeksite hulga
 $$
-I={ (m,n)\in\mathbb{N}^{2}:\exists C\in\mathfrak{C},\hspace{0.2cm} B_{m}\subset C\subset B_{n} }.
+I=\{ (m,n)\in\mathbb{N}^{2}:\exists C\in\mathfrak{C},\hspace{0.2cm} B_{m}\subset C\subset B_{n} \}.
 $$
 Kuna $\mathbb{N}^{2}$ on loenduv, siis ka selle alamhulk $I$ on loenduv. (Räägime siin taas ülimalt loenduvusest.) Moodustame selle järgi loenduva hulga
 $$
-\mathfrak{C}^* = { C_{mn}:(m,n)\in I }\subset\mathfrak{C}
+\mathfrak{C}^* = \{ C_{mn}:(m,n)\in I \}\subset\mathfrak{C}
 $$
 ja näitame, et $\mathfrak{C}^*$ on ruumi $X$ baas.</p>
 <p>Fikseerime suvalise lahtise hulga $U\subset X$, siis peab baasi definitsiooni järgi leiduma mingi $B_{n}\in\mathfrak{B}$ nii, et $B_{n}\subset U$. Kuna $\mathfrak{C}$ on baas ja $B_{n}$ on lahtine hulk, peab leiduma $C\in\mathfrak{C}$ nii, et $C\subset B_{n}$. Viimaks peab sama argumendi najal leiduma üks $B_{m}$ nii, et $B_{m}\subset C$. Leidsime, et suvalise lahtise hulga $U$ korral leidub mingi $ C\in\mathfrak{C}^* $, mis sisaldub hulgas $U$. Järelikult on $ \mathfrak{C}^* $ baas. $\Box$</p>
