@@ -17,15 +17,22 @@ body {
 
 nav {
   grid-area: nav;
+  margin-bottom: 1.2rem;
+}
+
+nav a:hover {
+  text-decoration: none;
+}
+
+nav h1 {
+  margin: 0;
 }
 
 #brand {
-  width: fit-content;
-  margin: 0 auto;
-  padding: 1rem;
-  padding-top: 1.2rem;
   background-color: black;
-  
+  display: inline-block;
+  padding: .8rem;
+  padding-bottom: .6rem;
 }
 
 main {
@@ -89,7 +96,7 @@ footer {
     margin-bottom: 1rem;
   }
 
-  #left-sidebar > .minust {
+  .sidebar-block.minust {
     margin-top: 3rem;
   }
 
