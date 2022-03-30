@@ -33,6 +33,7 @@ nav h1 {
   display: inline-block;
   padding: .8rem;
   padding-bottom: .6rem;
+  border-radius: 8px;
 }
 
 main {
@@ -191,6 +192,11 @@ figure.block > img {
 
 table {
   margin: 2rem 0;
+}
+
+#scroll-back-up {
+  color: white;
+  background-color: black;
 }
 
 /* home projects & posts list */
