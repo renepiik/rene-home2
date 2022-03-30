@@ -12,30 +12,27 @@
   </head>
 
   <body>
-    <nav>
-    <ul class="menu">
-      
-      <li><a href="/">Sisu</a></li>
-      
-      <li><a href="/minust/">Minust</a></li>
-      
-    </ul>
+    
+
+    <nav style="text-align: center;">
+      <div id="brand">
+        <h1 style="display: inline-block; margin: 0;"><a href="/" style="color: white;">Hobimatemaatik</a></h1>
+      </div>
     </nav>
 
 
 
 
-<div class="article-meta" >
-    <h1><span class="title">Ülesanne loenduvuse aksioomidest</span></h1>
-    <span class="subtitle"></span>
-    
-    <h2 class="date">2021/12/14</h2>
-    
-</div>
-
 
 
 <main>
+    <div class="article-meta" >
+        <h2><span class="title">Ülesanne loenduvuse aksioomidest</span></h2>
+        <span class="subtitle"></span>
+        
+        <h2 class="date">2021/12/14</h2>
+        
+    </div>
 <p>Hakkasin kordamise mõttes topoloogiliste omaduste konspekti ülesandeid otsast lahendama. Esimese peatüki esimene ülesanne kõlab seal järgmiselt: &ldquo;Tõestada, et kui topoloogia mingi baas on loenduv, siis selle topoloogia iga baas sisaldab loenduva baasi.&rdquo;</p>
 <p>Esialgu tundus mulle, et selle lause tõestus peaks olema küllaltki lihtne. Tuleks definitsioonidele vaid otsa vaadata, neid natuke kohendada ja lahenduskäik võiks end juba ilmutada. Paraku nii ei juhtunud. Üritasin kaks-kolm päeva seda ülesannet ilma välise abita lahendada ega jõudnud kuhugi.</p>
 <p>Lause tõestus oli aga piisavalt huvitav, et tahtsin seda ka teistega jagada. Praktikumis tehtud märkmete ja ühe ainet juba võtnud tudengi abiga saime ülesandest lõpuks jagu.</p>
@@ -60,6 +57,16 @@ ja näitame, et $\mathfrak{C}^*$ on ruumi $X$ baas.</p>
 <p>Lihtsate lausete puhul kehtib vist alati üks kahest: see on kas triviaalne või mitu raskusastet keerulisem ühestki teisest teemakohasest ülesandest.</p>
 
 </main>
+
+<button id="scroll-back-up" onclick="scrollBackUp()">keri üles</button>
+
+<script>
+function scrollBackUp() {
+    if (window.pageYOffset > 0) {
+        window.scrollTo(0, 0);
+    }
+}
+</script>
 
   <footer>
   

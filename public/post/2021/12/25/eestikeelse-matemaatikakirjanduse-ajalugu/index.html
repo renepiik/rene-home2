@@ -12,14 +12,12 @@
   </head>
 
   <body>
-    <nav>
-    <ul class="menu">
-      
-      <li><a href="/">Sisu</a></li>
-      
-      <li><a href="/minust/">Minust</a></li>
-      
-    </ul>
+    
+
+    <nav style="text-align: center;">
+      <div id="brand">
+        <h1 style="display: inline-block; margin: 0;"><a href="/" style="color: white;">Hobimatemaatik</a></h1>
+      </div>
     </nav>
 
 
@@ -31,17 +29,16 @@
 
 
 
-<div class="article-meta" >
-    <h1><span class="title">Eestikeelse matemaatikakirjanduse ajalugu</span></h1>
-    <span class="subtitle"></span>
-    
-    <h2 class="date">2021/12/25</h2>
-    <span>15 minutit</span> 
-</div>
-
 
 
 <main>
+    <div class="article-meta" >
+        <h2><span class="title">Eestikeelse matemaatikakirjanduse ajalugu</span></h2>
+        <span class="subtitle"></span>
+        
+        <h2 class="date">2021/12/25</h2>
+        <span>15 minutit</span> 
+    </div>
 <p>Erialase keele areng on pikalt olnud aktuaalne teema, mis käib käsikäes eestikeelse ülikooli küsimustega. Kui valdav osa doktoriõppest on ingliskeelne, eriti loodus- ja täppisteaduste valdkonnas, siis kuidas peaks arenema emakeelne teadus? Miks peaks noortel tudengitel olema motivatsiooni õppida bakalaureuse- ja magistriastmes eesti keeles, kui tulevastel töökohtadel või doktoriõppes tuleb niikuinii tunda kogu materjali inglise keeles?</p>
 <p>Valdav osa matemaatikast, mida bakalaureuse astmes Tartu Ülikoolis õpetatakse, on üle 100 aasta vana. Claude Shannoni eestvedamisel 1950ndatel formaliseerunud informatsiooniteooria on üks tänapäevasemaid matemaatika harusid, millega värske tudeng kohustuslikus korras kokku puutub, ning sedagi läbi arvutiteaduse õppetooli halduses olevate ainete. Uusi eestikeelseid õppematerjale koostatakse vaid ajakohasema lähenemisviisi ja uute tehnoloogiliste tööriistade rakendamise nimel, sest materjal, mida õpetatakse, pole (mitme)saja aasta jooksul muutunud. Matemaatikatudeng võib juba teisel õppeaastal kokku puutuda asjakohaste eestikeelsete õppematerjalidega, mis olid trükis viimati 1960ndatel.</p>
 <h2 id="vanimad-eestikeelsed-matemaatilised-teosed">Vanimad eestikeelsed matemaatilised teosed</h2>
@@ -728,6 +725,16 @@
 </table>
 
 </main>
+
+<button id="scroll-back-up" onclick="scrollBackUp()">keri üles</button>
+
+<script>
+function scrollBackUp() {
+    if (window.pageYOffset > 0) {
+        window.scrollTo(0, 0);
+    }
+}
+</script>
 
   <footer>
   

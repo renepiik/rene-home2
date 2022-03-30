@@ -12,34 +12,41 @@
   </head>
 
   <body>
-    <nav>
-    <ul class="menu">
-      
-      <li><a href="/">Sisu</a></li>
-      
-      <li><a href="/minust/">Minust</a></li>
-      
-    </ul>
+    
+
+    <nav style="text-align: center;">
+      <div id="brand">
+        <h1 style="display: inline-block; margin: 0;"><a href="/" style="color: white;">Hobimatemaatik</a></h1>
+      </div>
     </nav>
 
 
 
 
-<div class="article-meta" >
-    <h1><span class="title">Minust</span></h1>
-    <span class="subtitle"></span>
-    
-    
-    
-</div>
-
 
 
 <main>
+    <div class="article-meta" >
+        <h2><span class="title">Minust</span></h2>
+        <span class="subtitle"></span>
+        
+        
+        
+    </div>
 <p>Õpin Tartu Ülikoolis matemaatikat ja teoreetilist informaatikat. 2022 kevadsemestril olen vahetusüliõpilane Helsingi ülikoolis ning kui kõik hästi läheb, lõpetan bakalaureuse 2023. aasta kevadel. Vabal ajal mängin lauatennist, loen raamatuid või prokrastineerin r/math-is.</p>
 <p><a href="mailto:renepiik@gmail.com">renepiik@gmail.com</a>.</p>
 
 </main>
+
+<button id="scroll-back-up" onclick="scrollBackUp()">keri üles</button>
+
+<script>
+function scrollBackUp() {
+    if (window.pageYOffset > 0) {
+        window.scrollTo(0, 0);
+    }
+}
+</script>
 
   <footer>
   

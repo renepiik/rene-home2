@@ -8,20 +8,29 @@
 
 {{end}}
 
-<div class="article-meta" >
-    <h1><span class="title">{{ .Title | markdownify }}</span></h1>
-    <span class="subtitle">{{ .Params.subtitle | markdownify }}</span>
-    {{ with .Params.author }}<h2 class="author">{{ . }}</h2>{{ end }}
-    {{ if (gt .Params.date 0) }}<h2 class="date">{{ .Date.Format "2006/01/02" }}</h2>{{ end }}
-    {{with .Params.time_to_read}}<span>{{ . }} minutit</span> {{end}}
-</div>
-
 <!--
 style="background-image: url({{.Params.cover}}); background-repeat: no-repeat; background-size: cover;"
 -->
 
 <main>
+    <div class="article-meta" >
+        <h2><span class="title">{{ .Title | markdownify }}</span></h2>
+        <span class="subtitle">{{ .Params.subtitle | markdownify }}</span>
+        {{ with .Params.author }}<h2 class="author">{{ . }}</h2>{{ end }}
+        {{ if (gt .Params.date 0) }}<h2 class="date">{{ .Date.Format "2006/01/02" }}</h2>{{ end }}
+        {{with .Params.time_to_read}}<span>{{ . }} minutit</span> {{end}}
+    </div>
 {{ .Content }}
 </main>
+
+<button id="scroll-back-up" onclick="scrollBackUp()">keri üles</button>
+
+<script>
+function scrollBackUp() {
+    if (window.pageYOffset > 0) {
+        window.scrollTo(0, 0);
+    }
+}
+</script>
 
 {{ partial "footer.html" . }}

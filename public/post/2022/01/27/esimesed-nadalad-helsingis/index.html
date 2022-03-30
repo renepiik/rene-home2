@@ -12,30 +12,27 @@
   </head>
 
   <body>
-    <nav>
-    <ul class="menu">
-      
-      <li><a href="/">Sisu</a></li>
-      
-      <li><a href="/minust/">Minust</a></li>
-      
-    </ul>
+    
+
+    <nav style="text-align: center;">
+      <div id="brand">
+        <h1 style="display: inline-block; margin: 0;"><a href="/" style="color: white;">Hobimatemaatik</a></h1>
+      </div>
     </nav>
 
 
 
 
-<div class="article-meta" >
-    <h1><span class="title">Esimesed nädalad Helsingis</span></h1>
-    <span class="subtitle"></span>
-    
-    <h2 class="date">2022/01/27</h2>
-    
-</div>
-
 
 
 <main>
+    <div class="article-meta" >
+        <h2><span class="title">Esimesed nädalad Helsingis</span></h2>
+        <span class="subtitle"></span>
+        
+        <h2 class="date">2022/01/27</h2>
+        
+    </div>
 <h2 id="raamatukogud">Raamatukogud</h2>
 <p>Ülikoolide raamatukogud peaksid olema 24/7 avatud.
 See ei ole normaalne, et need pannakse kinni juba kell 21 (praegu eriolukorra tõttu Helsingis isegi kell 18).
@@ -118,6 +115,16 @@ Eriti palju kallim on alkohol; ma arvasin, et see oli praeguseks vaid meem, sest
 Soomes peab alkopudeli hind olema üksikuna ostes ja kastis ostes sama, mistõttu aktsiiside erinevus, baashinna vahe ja hulgiostu soodustused kõik kokku moodustavad päris korraliku hinnavahe.</p>
 
 </main>
+
+<button id="scroll-back-up" onclick="scrollBackUp()">keri üles</button>
+
+<script>
+function scrollBackUp() {
+    if (window.pageYOffset > 0) {
+        window.scrollTo(0, 0);
+    }
+}
+</script>
 
   <footer>
   
