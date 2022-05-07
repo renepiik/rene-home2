@@ -37,13 +37,25 @@ nav h1 {
   background-color: black;
   display: inline-block;
   padding: .45rem .75rem;
-  margin-right: -0.3rem;
 }
 
 main {
   max-width: 45rem;
   margin: auto;
   grid-area: main;
+}
+
+article {
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+article > p + p {
+  text-indent: 3rem;
+}
+
+article > h2 {
+  margin-top: 2.5rem;
 }
 
 #left-sidebar {
@@ -238,6 +250,7 @@ table {
 #scroll-back-up {
   color: white;
   background-color: black;
+  border-radius: 0;
 }
 
 /* home projects & posts list */
