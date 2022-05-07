@@ -1,16 +1,24 @@
 body {
   margin: auto;
   padding: 1em;
-  line-height: 1.5em;
   font-size: 1.05rem;
   max-width: none !important; 
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
   grid-template-rows: auto;
+	/*
   grid-template-areas: 
     "nav nav nav"
     "cover cover cover"
     "left-sidebar main right-sidebar"
+    "footer footer footer";
+		*/
+  grid-template-areas: 
+    "nav nav nav"
+    "cover cover cover"
+    ". main ."
+		". left-sidebar ."
+		". right-sidebar ."
     "footer footer footer";
   column-gap: 2rem;
 }
@@ -36,7 +44,8 @@ nav h1 {
 #brand {
   background-color: black;
   display: inline-block;
-  padding: .45rem .75rem;
+  padding: .35rem .75rem;
+	padding-top: .15rem;
 }
 
 main {
@@ -45,9 +54,13 @@ main {
   grid-area: main;
 }
 
+.date {
+	color: #454545;
+	display: none;
+}
+
 article {
-  font-size: 1.2rem;
-  line-height: 2rem;
+  line-height: 1.8rem;
 }
 
 article > p + p {
@@ -313,5 +326,5 @@ p {
 a {
   font-weight: 500;
   font-variant-caps: all-small-caps;
-  font-size: 1.3rem;
+	font-size: 1.1rem;
 }
