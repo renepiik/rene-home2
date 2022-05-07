@@ -1,6 +1,6 @@
 {{ partial "header.html" . }}
 
-{{if .Params.cover}}
+{{ if .Params.cover }}
 
 <div class="cover-parent">
     <img src="{{.Params.cover}}" class="cover-image" alt="Cover">
@@ -20,7 +20,19 @@ style="background-image: url({{.Params.cover}}); background-repeat: no-repeat; b
         {{ if (gt .Params.date 0) }}<h2 class="date">{{ .Date.Format "2006/01/02" }}</h2>{{ end }}
         {{with .Params.time_to_read}}<span>{{ . }} minutit</span> {{end}}
     </div>
-{{ .Content }}
+
+    <article>
+        {{ .Content }}
+    </article>
+
+{{ if (eq .Title "Raamatud") }}
+    <div class="big-books-list">
+        {{ range $.Site.Data.data.books }}
+            {{ partial "book.html" . }}
+        {{ end }}   
+    </div>
+{{ end }}
+
 </main>
 
 <button id="scroll-back-up" onclick="scrollBackUp()">keri üles</button>

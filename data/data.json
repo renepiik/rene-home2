@@ -1,0 +1,58 @@
+{
+    "books": [
+        {
+            "title": "A Ghost in the Throat",
+            "author": "Doireann Ní Ghríofa",
+            "date_finished": "01-05-2022",
+            "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1591993457l/51498568._SY475_.jpg",
+            "notes": "",
+            "rating": 5
+        },
+        {
+            "title": "Kõndimise filosoofia",
+            "author": "Frédéric Gros",
+            "date_finished": "25-04-2022",
+            "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1475575710l/32450452.jpg",
+            "notes": "",
+            "rating": 5
+        },
+        {
+            "title": "Americanah",
+            "author": "Chimamanda N. Adichie",
+            "date_finished": "18-04-22",
+            "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1497706599l/35451545.jpg",
+            "notes": "Kütkestav lugu ja huvitavad tegelased. Ta oleks võinud lühem olla - viimane veerand raamatust venis liiga palju.",
+            "rating": 4
+        },
+        {
+            "title": "Pariis. Kakskümmend viis aastat hiljem",
+            "author": "Tõnu Õnnepalu",
+            "date_finished": "04-04-2022",
+            "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1553251562l/44567908._SY475_.jpg",
+            "notes": "",
+            "rating": 5
+        }
+    ],
+    "music": [
+        {
+            "title": "CAPRISONGS",
+            "artist": "FKA Twigs"
+        },
+        {
+            "title": "iridescence",
+            "artist": "Brockhampton"
+        },
+        {
+            "title": "Sometimes I Might Be Introvert",
+            "artist": "Little Simz"
+        },
+        {
+            "title": "Untourable Album",
+            "artist": "Men I Trust"
+        },
+        {
+            "title": "Madvillainy",
+            "artist": "MF DOOM"
+        }
+    ]
+}

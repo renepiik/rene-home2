@@ -1,0 +1,13 @@
+<div class="book">
+    <div class="info">
+        <strong>{{ .title }}</strong>
+        <br>
+        {{ .author }}
+        <br>
+        <strong>{{ .rating }}</strong> / 5
+        <br>
+        <p></p>
+        (lõppes {{ .date_finished }})
+    </div>
+    <img src="{{ .image }}" alt="{{ .title }} cover image" class="bookcover">
+</div>
