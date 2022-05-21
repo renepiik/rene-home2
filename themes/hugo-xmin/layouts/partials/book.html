@@ -7,7 +7,7 @@
         <strong>{{ .rating }}</strong> / 5
         <br>
         <p></p>
-        ? - {{ replace .date_finished "-" "." }}
+        {{ replace .date_started  "-" "." }} - {{ replace .date_finished "-" "." }}
     </div>
     <img src="{{ .image }}" alt="{{ .title }} cover image" class="bookcover">
 </div>
