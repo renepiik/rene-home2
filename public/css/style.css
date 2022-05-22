@@ -30,6 +30,7 @@ nav {
 
 nav a {
   font-size: 1.4rem;
+  color: #000;
 }
 
 nav a:hover {
@@ -46,6 +47,10 @@ nav h1 {
   display: inline-block;
   padding: .35rem .75rem;
 	padding-top: .15rem;
+}
+
+#brand a {
+  color: #fff;
 }
 
 main {
@@ -218,7 +223,6 @@ pre code { background: none; }
 img, iframe, video { max-width: 100%; }
 main { hyphens: auto; }
 blockquote {
-  background: #f9f9f9;
   border-left: 5px solid #ccc;
   padding: 3px 1em 3px;
 }
@@ -333,4 +337,32 @@ a {
   font-weight: 500;
   font-variant-caps: all-small-caps;
 	font-size: 1.1rem;
+}
+
+
+/* DARK MODE */
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #111;
+    color: #ddd;
+  }
+
+  strong {
+    color: #ccc;
+  }
+
+  nav a {
+    color: #eee;
+  }
+
+  .link-type {
+    color: #111;
+  }
+
+  h1, h2, h3, h4 {
+    color: #ccc;
+  }
+
+  thead, tfoot, tr:nth-child(even) { background-color: #222 !important; }
 }
